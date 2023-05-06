@@ -1,4 +1,7 @@
-all:exceptions.cpp
+all: exceptions
+exceptions: exceptions.cpp
 	g++ -o exceptions exceptions.cpp
+run: exceptions
+	./exceptions
 clean:
-	$(RM) exceptions
+	rm -f exceptions

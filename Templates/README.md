@@ -19,4 +19,5 @@ Lista de los requisitos previos necesarios para poder compilar y ejecutar el pro
 ## Pasos necesarios para ejecutar el programa
 
 1. Abrir una terminal en el directorio raíz del programa.
-2. Ejecutar el comando `./stackTemplate` para iniciar la aplicación.
+2. Ejecutar el comando `make run` para iniciar la aplicación.
+3. Para limpiar el archivo binario ejecutar el comando `make clean `.

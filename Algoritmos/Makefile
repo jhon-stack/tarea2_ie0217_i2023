@@ -1,5 +1,11 @@
 
-all:main.cpp
+all: main
+
+main: main.cpp
 	g++ -o main main.cpp
+
+run: main
+	./main
+
 clean:
-	$(RM) main
+	rm -f exceptions

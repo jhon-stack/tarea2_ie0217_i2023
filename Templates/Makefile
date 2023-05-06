@@ -1,4 +1,7 @@
-all:stackTemplate.cpp
+all: stackTemplate 
+stackTemplate: stackTemplate.cpp
 	g++ -std=c++11 -o stackTemplate stackTemplate.cpp
-clean:
-	$(RM) stackTemplate
+run: stackTemplate
+	./stackTemplate
+clean: 
+	rm -f stackTemplate
